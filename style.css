@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #7f53ac;
+    background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+}
+.main-content{
+    width: 1000px;
+    height: 100vh;
+    margin: 0 auto;
+}
+.search-container{
+    width: 800px;
+    height: 166px;
+    background-color: #6045E2;
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.covid-title{
+    color: white;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-family: 'Varela Round', sans-serif;
+}
+.search-text{
+    color: white;
+    font-size: 18px;
+    padding-left: 30px;
+    margin-top: 5px;
+    font-family: 'Varela Round', sans-serif;
+}
+.input{
+    width: 400px;
+    height: 50px;
+    border: 0;
+    outline: none;
+    border-radius: 8px;
+    font-size: 20px;
+    padding-left: 40px;
+    font-family: 'Varela Round', sans-serif;
+}
+.input-container{
+    width: 400px;
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.fa-map-marker-alt{
+    position: absolute;
+    left: 3%;
+    font-size: 20px;
+    color: #6045E2;
+}
+::placeholder{
+    color: black;
+    font-size: 18px;
+}
+
+
+/* result container*/
+.result-container{
+    width: 800px;
+    height: auto;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+.statistic{
+    padding-left: 30px;
+    color: #6045E2;
+    font-size: 30px;
+    font-family: 'Varela Round', sans-serif;
+}
+.information-container{
+    width: 100%;
+    height: 240px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.information-box{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.icon-box{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(96, 69, 226, 0.3);
+}
+.fa-virus{
+    color:#6045E2 ;
+    font-size: 22px;
+}
+.quantity{
+    margin-top: 12px;
+    color:#6045E2 ;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Varela Round', sans-serif;
+}
+.case-text{
+    color: #6045E2;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 12px;
+    margin-top: 12px;
+    font-family: 'Varela Round', sans-serif;
+}
+.fa-heart{
+    color:#2ECC71 ;
+    font-size: 22px;
+}
+.icon-box-heart{
+    background: rgba(70, 255, 40, 0.3);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quantity-recovered{
+    margin-top: 12px;
+    color:#2ECC71 ;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Varela Round', sans-serif;
+}
+.recovered-text{
+    color:#2ECC71 ;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 12px;
+    margin-top: 12px;
+    font-family: 'Varela Round', sans-serif;
+}
+.icon-box-dead{
+    background: rgba(255, 40, 40, 0.3);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-book-dead{
+    color: #FF1800;
+    font-size: 22px;
+}
+.dead-text{
+    color: #FF1800;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 12px;
+    margin-top: 12px;
+    font-family: 'Varela Round', sans-serif;
+}
+.quantity-dead{
+    margin-top: 12px;
+    color:#FF1800 ;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Varela Round', sans-serif;
+}
