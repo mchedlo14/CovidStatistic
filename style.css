@@ -211,3 +211,16 @@ img{
 .container h3,p{
     text-align: center;
 }
+.statistic-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.statistic-container p{
+    color: #6045E2;
+    font-size: 30px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 600;
+}
